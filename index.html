@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr Ahmed Zahran</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mr Ahmed Zahran</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mr Ahmed Zahran</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Ahmed Zaher profile picture" style="border-radius: 25px; border: 3px solid black;"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mr Ahmed Zahran</h1>
+        <p class="section__text__p2">Sales Manager</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ahmed-zahran-212b84236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1><br><br><br><br>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic" style="border: 2px solid black;"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>16+ years <br />sales</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Business Administration</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lead strategic, client acquisition and workforce planning which includes overall management of candidate sourcing, and rostering
+Briefing, interviews, appraisal, presentations, onboarding, employee joining arrangements and new joiner contract.
+Orientation, employee temporary period, and movement of employees within pre-determined productivity and turnaround time standards
+(TAT) thus ensuring contribution to the strategic direction. • Leading and managing market systems solutions. • Leading a partnership
+Strategy with the Human Resources Development Fund • Prepare, review and monitor our annual budget for customer attraction • Develop
+Supervising the implementation of customer attraction management policies, procedures and controls covering all areas of activity, and ensuring
+Meet all relevant procedural/legal requirements while delivering high quality, cost-effective results
+• Lead and manage direct change through continuous improvement of customer attraction management systems, processes and practices, with
+Proactively consider leading practices
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <br><br><br><br><br><br><br><br><br><br>
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Sales Manger</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Area sales manager</h3><br>
+                  <p>At Al-Tariq Food Industries Company                    
+                    Follow up – Jan 2023
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Branch Manager</h3><br>
+                  <p>at Dima
+                    Aug 2022 - Jan 2023
+                    Achieving sales growth and reaching set goals by managing the sales team effectively and ensuring the implementation of programs
+                    Retail properly at branch level Recruit and train branch managers Track and analyze sale performance reports
+                    Retail at the regional and branch levels. Coordination between the company headquarters and the stores.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sales Supervisor</h3><br>
+                  <p>
+                    at capitre
+                    Jan 2020 - Jan 2022 
+                    • Lead strategic, client attraction and workforce planning that includes overall management of candidate sourcing and rostering
+                    Briefing, interviews, appraisal, presentations, onboarding, employee joining arrangements and new joiner contract
+                    Orientation, employee temporary period, and movement of employees within pre-determined productivity and turnaround time standards
+                    (TAT) and thus ensuring contribution to the strategic direction. • Leading and managing market systems solutions. • Leading a partnership
+                    Strategy with the Human Resources Development Fund • Preparing, reviewing and monitoring our annual budget for attracting clients • Developing
+                    And supervising the implementation of customer attraction management policies, procedures and controls that cover all areas of activity, and ensuring
+                    Satisfying all relevant procedural/legal requirements while delivering high quality, cost-effective results
+                    • Lead and manage direct change through continuous improvement of customer attraction management systems, processes and practices, with
+                    Proactively taking into account leading practices.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sales Supervisorr</h3><br>
+                  <p>at Kellogg's Noodles Company</p>
+                  <p>Jan 2018 - Jan 2020</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sales Supervisor</h3><br>
+                  <p>at Blocks Halwa Briddon</p>
+                  <p>Jul 2014 - Dec 2018</p>
+                  <p>Wholesale representative, then I was promoted to sales supervisor for the major customers sector.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ayman Shaheen Company</h3><br>
+                  <p>Ayman Shaheen Company
+                    Apr 2010 – Oct 2014</p>
+                    <p>Retail representative, then major customer representative.</p>
+                </div>
+              </article>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Certificates</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Certificate 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Certificate 1</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.jpg"
+                alt="Certificate 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Certificate 2</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ahmed-zahran-212b84236/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Mr Ahmed Zaher. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
